@@ -1,5 +1,5 @@
 /*Write a C program that takes an integer and prints out the month name that
-matches the entered integer using if-else or switch*/
+matches the entered integer using if-else or switch */
 #include <stdio.h>
 
 int main(int argc, char *argv[])

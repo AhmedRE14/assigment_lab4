@@ -6,43 +6,40 @@ scanf .*/
 
 int main(int argc, char *argv[])
 {
-int A,B,C;
+//int A,B,C;
+int num[2];
 int max,min,avg;
 
 printf("Enter A,B,C\n");
-scanf("%d",&A);
-scanf("%d",&B);
-scanf("%d",&C);
-
-
-avg=(A+B+C)/3;
+scanf("%d",&num[0]);//A
+scanf("%d",&num[1]);//B
+scanf("%d",&num[2]);//C
 
 int i;
-
+max=num[0];
+min=num[0];
 
 for( i=0; i<3; i++ ){
 
+if (num[i] > max)
+{
+     max=num[i];
+ }
+    
 
-    max=A;
-    if (B > max){
-         max=B;
-    }   
-    if (C > max){
-         max=C;
-    }
 }
 
 for( i=0; i<3; i++ ){
 
+if (num[i] < min)
+{
+     min=num[i];
+ }
+    
 
-    min=A;
-    if (B < min){
-         min=B;
-    }   
-    if (C < min){
-         min=C;
-    }
 }
+
+avg = (num[0]+num[1]+num[2]) / 3;
 
 printf("Max:%d\n",max);
 printf("Min:%d\n",min);

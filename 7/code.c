@@ -55,6 +55,8 @@ for ( i = 0; i < 10; i++){
         printf("Student grades: %d\n", student [i].Grades);
 
     }
+
+    return 0;
  }
 
   

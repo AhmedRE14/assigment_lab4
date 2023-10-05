@@ -9,5 +9,6 @@ int hours = atoi(argv[1]);
 
 printf( "%d\n" , ( hours *60*60 ) );
 
+    return 0;
 
 }

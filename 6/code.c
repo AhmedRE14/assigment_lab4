@@ -19,6 +19,9 @@ int i;
 max=num[0];
 min=num[0];
 
+avg = (num[0]+num[1]+num[2]) / 3;
+
+
 for( i=0; i<3; i++ ){
 
 if (num[i] > max)
@@ -39,7 +42,6 @@ if (num[i] < min)
 
 }
 
-avg = (num[0]+num[1]+num[2]) / 3;
 
 printf("Max:%d\n",max);
 printf("Min:%d\n",min);
